@@ -627,7 +627,6 @@
         return (0, C.jsxs)("section", {
           id: "join-army",
           className: "relative w-full bg-black md:py-24 py-16 ",
-          "aria-label": "Join the Army",
           children: [
             (0, C.jsx)("div", {
               className:
@@ -656,22 +655,6 @@
                     className:
                       "text-5xl md:text-8xl font-bold font-sans tracking-wider uppercase",
                     children: [
-                      (0, C.jsx)("span", {
-                        className: "inline-block",
-                        style: {
-                          color: "transparent",
-                          WebkitTextStrokeWidth: "2px",
-                          WebkitTextStrokeColor:
-                            "var(--e-global-color-primary,#F0B90B)",
-                        },
-                        children: "Join the",
-                      }),
-                      (0, C.jsx)("br", {}),
-                      (0, C.jsx)("span", {
-                        className:
-                          "text-[var(--e-global-color-primary,#F0B90B)] drop-shadow-[0_0_10px_rgba(240,185,11,.35)]",
-                        children: "Army",
-                      }),
                     ],
                   }),
                 }),
